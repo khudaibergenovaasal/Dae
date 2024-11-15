@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-top {
+    background-color: rgb(179, 96, 80);
+    padding-top: 9px;
+    padding-bottom: 10px;
+
+}
+
+.txt {
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+
+
+}
+
+ul {
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+
+    gap: 32px;
+    padding-left: 14px;
+    padding-right: 63px;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 313px;
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.head {
+    height: 435px;
+}
+
+.center {
+    height: 304px;
+    padding: 69px 70px;
+    background-color: rgb(169, 174, 141);
+    color: aliceblue;
+}
+
+.kogo {
+    color: rgb(255, 255, 255);
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 20px;
+
+
+}
+
+.bacground {
+    width: 1440px;
+    height: 435px;
+    background-image: url('../img/Rectangle.jpeg');
+    text-align: center;
+}
+
+.der {
+    background-color: red;
+    align-items: center;
+    margin-top: 341px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.r {
+    width: 380px;
+    height: 630px;
+    color: rgb(180, 95, 77);
+
+}
+
+.t {
+    width: 380px;
+    height: 630px;
+    color: rgb(180, 95, 77);
+
+}
+
+.e {
+    width: 380px;
+    height: 630px;
+    color: rgb(180, 95, 77);
+}
+
+.g {
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.per {
+    border: none;
+    background-color: rgb(169, 174, 141);
+    color: aliceblue;
+}
+.ur{
+    display: flex;
+   
+}
+.a{
+    margin-left: 740px;
+}
+.link {
+    height: 600px;
+    background-color:azure;
+   
+
+}
+.pet{
+    margin-left: 110px;
+}
+.rey{
+    height: 1069px;
+    background: rgb(241, 211, 185);
+    position: relative;
+   padding-top: 61px;
+}
+.lin{
+    width: 632px;
+height: 947px;
+background: url('../img/6Z3A4921_1200x\ 1.png');
+margin-left: 183px;
+padding-top: 30px;
+
+}
+
+.post {
+    width: 1219px;
+    height: 414px;
+    background: url('../img/image\ 3.png');
+}
+
+.text {
+    width: 1220px;
+    height: 92px;
+    background: rgb(223, 155, 122);
+}
+
+.s {
+    color: rgb(246, 244, 236);
+margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.a{
+    color: rgb(246, 244, 236);
+   
+    font-size: 18px;
+    font-weight: 400; 
+}
+.ret{
+  
+position: absolute;
+width: 339px;
+height: 509px;
+top: 535px;
+right: 1000px;
+    
+    background-image: url('../img/girl.svg');
+}
+.about-btn{
+    color: rgb(180, 95, 77);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 60px;
+margin-left:50px ;
+border: none;
+background-color: transparent;
+}
+.style{
+    color: rgb(180, 95, 77);
+font-family: Roboto;
+font-size: 30px;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: 0%;
+text-align: left;
+text-align: center;
+margin-top: 50px;
+}
+.border{
+    color: rgb(180, 95, 77);
+font-family: Roboto;
+font-size: 19px;
+font-weight: 400;
+line-height: 30.4px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 50px;
+
+}
+.bordref{
+   padding-left: 50px;
+   padding-right: 52px;
+}
+
+.about{
+    /* Frame */
+position: absolute;
+width: 518px;
+height: 582px;
+left: 765px;
+top: 285px;
+background: rgb(248, 248, 248);
+}
+
+.main {
+    height: 835px;
+    background: rgb(246, 244, 236);
+}
+
+.key {
+    color: rgb(180, 95, 77);
+
+    font-size: 23px;
+    font-weight: 400;
+
+    text-align: center;
+}
+.main-end{
+    height: 260.59px;
+    background-color: aliceblue;
+    
+}
+.lm{
+    width: 230px;
+height: 130px;
+background-image:url('../img/lm.svg');
+}
+
+.class{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 23px;
+font-weight: 400;
+text-align: center;
+}
+.main-i{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.kl {
+    position: absolute;
+    width: 380px;
+    height: 567px;
+    left: 0;
+    top: 0;
+}
+.pl{
+    width: 230px;
+    height: 130px;
+    background-image: url('../img/pl.svg');
+}
+.tk{
+    width: 230px;
+    height: 130px;
+    background-image: url('../img/tk.svg');
+}
+.ph{
+    width: 230px;
+    height: 130px;
+    background-image: url('../img/ph.svg');
+
+}
+.ka{
+    width: 230px;
+    height: 130px;
+    background-image: url('../img/kl.svg');
+}
+.ht{
+    width: 230px;
+    height: 130px;
+    background-image: url('../img/ht.svg');
+}
+
+.dae{
+    width: 46px;
+height: 46px;
+background-image: url('../img/dae.svg');
+margin-top: 74px;
+margin-left: 93px;
+
+
+}
+.ft{
+    width: 201px;
+    height: 128px;
+    margin-top: 62px;
+    margin-left: 52px;
+    color: rgb(180, 95, 77);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+letter-spacing: 0%;
+text-align: left;
+}
+.foot{
+    color: rgb(193, 124, 108);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 128px;
+margin-left: 52px;
+}
+.men{
+    display: flex;
+    ;
+}
+.footer{
+    height: 401px;
+
+    
+}
+.ner{
+    background-color:rgb(246, 244, 236)
+}
+.nain{
+    width: 500px;
+height: 44px;
+border-width: 5px;
+border-style: solid;
+border-color:rgb(193, 124, 108) ;
+}
+.end{
+    width: 440px;
+height: 23px;
+color: rgb(193, 124, 108);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nin{
+    color: rgb(193, 124, 108);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: left;
+width: 440px;
+height: 23px;
+margin-top: 10px;
+margin-left: 420px;
+}
+.rose{
+    display: flex;
+}
+.bor{
+    color: rgb(193, 124, 108);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: left;
+}
+.noon{
+    margin-top: 74px;
+    margin-left: 360px;
+}
